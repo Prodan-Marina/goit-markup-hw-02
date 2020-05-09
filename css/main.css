@@ -1,0 +1,83 @@
+/* цвет основного текста  #757575  */
+/* вторичный цвет #212121 */
+/* цвет логотпа, ссылок при наведении и акцент #2196F3 */
+/* белый цвет #FFFFFF */
+/*цвет в футере rgba(255, 255, 255, 0.6);*/
+/* цвет фона кнопок #F5F4FA */
+
+/* Стили для index.html */
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --bg-grey-color: #f5f4fa;
+}
+.body-page {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+.list {
+  list-style: none;
+  /* Новигация */
+}
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* Контакты */
+.contact-nav .link {
+  color: var(--primary-text-color);
+}
+.contact-nav .link:hover,
+.contact-nav .link:focus {
+  color: var(--accent-color);
+}
+/* Герой */
+.hero-title {
+  color: var(--title-text-color);
+}
+/* Секции */
+.section-title {
+  color: var(--title-text-color);
+}
+/* Преимущества */
+.feature-list .title {
+  color: var(--title-text-color);
+}
+.feature-list .link {
+  background-color: var(--bg-grey-color);
+}
+.feature-list .link:hover,
+.feature-list .link:focus {
+  background-color: var(--accent-color);
+}
+/* Чем мы занимаемся */
+.skill-list .title {
+  background-color: rgba(47, 48, 58, 0.8);
+  color: var(--primary-white-color);
+}
+/* Наша команда */
+.team-list .title {
+  color: var(--title-text-color);
+}
+.socials .link:hover,
+.socials .link:focus {
+  background-color: var(--accent-color);
+}
+/* Кнопка */
+.button {
+  background-color: var(--primary-white-color);
+  color: var(--title-text-color);
+}
+.button.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
